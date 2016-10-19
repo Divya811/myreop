@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    <link rel="stylesheet" type="text/css" href="css/style.css">  
+
+</head>
+<body>
+<form action='/newdata' method="post">
+	
+	<h1>Sign Up</h1>
+
+	<label class="col-lg-6 col-md-6 col-sm-6 col-xs-6">Name</label>
+	<input class="col-lg-6 col-md-6 col-sm-6 col-xs-6" type="text" name="newname" placeholder="Enter your name" required ><br>
+	<label class="col-lg-6 col-md-6 col-sm-6 col-xs-6">UserName</label>
+
+	<input class="col-lg-6 col-md-6 col-sm-6 col-xs-6" type="text" name="uname" required><br>
+	<label class="col-lg-6 col-md-6 col-sm-6 col-xs-6">Password</label>
+	<input class="col-lg-6 col-md-6 col-sm-6 col-xs-6" type="password" name="pwd" required><br>
+	<label class="col-lg-6 col-md-6 col-sm-6 col-xs-6">Confirm Password</label>
+	<input class="col-lg-6 col-md-6 col-sm-6 col-xs-6" type="password" name="cpwd" required><br>
+
+	<input type="submit" name="btn" value="Create">
+
+
+</form>
+
+</body>
+</html>
